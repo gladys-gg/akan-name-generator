@@ -15,3 +15,13 @@ class Birthday{
     else  if(day <=0 || day >31||  month >12 ){
       this.showAlert();
         }
+
+        else{
+            const female = ['Akosua','Adwoa','Abenaa','Akua','Yaa','Afua','Ama'];
+            const male = ['Kwasi','Kwadwo','Kwabena','Kwaku','Yaw','Kofi','Kwame'];
+            const siku = new Date(`${month} ${day} ${year}`)
+            const selection= document.querySelector('#gender');
+            const dayResult = document.querySelector('.result-day');
+            const nameResult = document.querySelector('.result-name');
+            document.querySelector('.result').style.display = 'block';
+            
