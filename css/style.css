@@ -106,3 +106,20 @@ button{
 button:hover{
     background-color: #5390f5;
 }
+
+/*result div*/
+.result h2{
+    color:rgba(0,0,0,0.9);
+     text-align: center;
+   }
+   .result-day{
+     text-align: center;
+     margin-top: 1.7rem;
+   }
+   .result-name{
+     text-align: center;
+   }
+ .alert{
+     color: red;
+ }
+ 
