@@ -122,3 +122,16 @@ class Birthday{
     }
   }
   }
+
+    // this code runs the code in the birthday class
+
+const ala = new Birthday();
+
+
+
+document.querySelector('.btn-submit').addEventListener('click', getDay)
+
+function getDay(e) {
+  ala.getDayOfWeek();
+e.preventDefault();
+};
