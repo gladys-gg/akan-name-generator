@@ -57,3 +57,36 @@ class Birthday{
           nameResult.innerHTML = `your Akan name is ${male[6]}`;
         }
           }
+          else {
+            if(siku.getDay() === 0) {
+              dayResult.innerHTML =`You were born on a Sunday`;
+              nameResult.innerHTML = `your Akan name is ${female[0]}`;
+            }
+            else if(siku.getDay() === 1){
+              dayResult.innerHTML =`You were born on a Monday`;
+              nameResult.innerHTML = `your Akan name is ${female[1]}`;
+            }
+            else if(siku.getDay() === 2){
+              dayResult.innerHTML =`You were born on a Tuesday`;
+              nameResult.innerHTML = `your Akan name is ${female[2]}`;
+            }
+            else if(siku.getDay() === 3){
+              dayResult.innerHTML =`You were born on a Wednesday`;
+              nameResult.innerHTML = `your Akan name is ${female[3]}`;
+            }
+            else if(siku.getDay() === 4){
+              dayResult.innerHTML =`You were born on a Thursday`;
+              nameResult.innerHTML = `your Akan name is ${female[4]}`;
+            }
+            else if(siku.getDay() === 5){
+              dayResult.innerHTML =`You were born on a Friday`;
+              nameResult.innerHTML = `your Akan name is ${female[5]}`;
+            }
+            else if(siku.getDay() === 6){
+              dayResult.innerHTML =`You were born on a Saturday`;
+              nameResult.innerHTML = `your Akan name is ${female[6]}`;
+            }
+          }
+         }
+          
+        }
