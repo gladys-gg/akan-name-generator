@@ -46,3 +46,45 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 400;
 }
+
+form{
+    padding: 10px;
+    width: 100%;
+    height: 200px;
+}
+
+#day{
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+
+#month{
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 3px;
+    margin-bottom: 10px;
+
+}
+
+#year{
+    border-radius: 6px;
+    font-size: 13px;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#gender{
+    border-radius: 6px;
+    font-size: 16px;
+    color: black;
+    padding: 5px 30px;
+    margin-right: 60px;
+    background-color: white;
+    border: 2px solid black;
+}
