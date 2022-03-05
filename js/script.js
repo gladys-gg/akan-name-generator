@@ -90,3 +90,35 @@ class Birthday{
          }
           
         }
+
+          // show alert Method
+  showAlert(){
+    // check for any alerts 
+    this.clearAlert();
+    // create div
+    const div = document.createElement('div');
+    // add class to the div
+    div.className = 'alert';
+    // add text to the div
+    div.appendChild(document.createTextNode('something is wrong'));
+    // get parent
+    const container = document.querySelector('.card');
+    // get search box
+  const search = document.querySelector('.form');
+  // insert alert
+  container.insertBefore(div,search);
+  
+   // timeout after 3 seconds 
+   setTimeout(()=>{
+    this.clearAlert();
+  },3000);
+  
+  }
+  // clear alert message
+  clearAlert(){
+    const currentAlert = document.querySelector('.alert');
+    if(currentAlert){
+      currentAlert.remove();
+    }
+  }
+  }
